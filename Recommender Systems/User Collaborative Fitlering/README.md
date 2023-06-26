@@ -23,7 +23,7 @@ It consists of 1441 lines, each corresponding to a different rating event of a m
 ## Code Structure
 
 1. Calculate Pearson Correlation between two users.
-2. Retreive based on these correlation numbers the k nearest neighbors of a user
+2. Retreive based on these correlation numbers the $k$ nearest neighbors of a user
 3. Predict the movie rating based on the user's average ratings, the k nearest neighbors' average ratings and their ratings of the movie itself.
    
    The predicted rating is calculated as follows:
