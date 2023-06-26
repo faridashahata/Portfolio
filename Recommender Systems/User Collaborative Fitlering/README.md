@@ -40,3 +40,9 @@ It consists of 1441 lines, each corresponding to a different rating event of a m
    where $V$ denotes the $k$ nearest neighbors of user $u$, who is rating item $i$, and $w_{uv}$ denotes the similarity between users $u$ and $v$. Also, $\bar{r}_u$ is the average rating of user $u$ and $r_{vi}$ is the rating of neighbor $v$ to item $i$. We note that we adjust/normalize ratings by subtracting neighbor's average and later, adding user average rating. This is because raters rate on different scales, and this accounts for this bias.
 
 ## References
+
+
+Ekstrand M., Konstan J., Nearest Neighbor Collaborative Filtering. Coursera. https://www.coursera.org/lecture/collaborative-filtering/user-user-collaborative-filtering-vxEBZ.
+
+https://github.com/ZwEin27/User-based-Collaborative-Filtering/tree/master
+
