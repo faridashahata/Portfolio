@@ -32,6 +32,6 @@ It consists of 1441 lines, each corresponding to a different rating event of a m
    <img width="367" alt="Screenshot 2023-06-26 at 4 57 56 PM" src="https://github.com/faridashahata/Portfolio/assets/113303940/14c78623-1b90-4298-a941-bb4173917581">,
 
    
-   where $V$ denotes the $k$ nearest neighbor of user $u$, who is rating item i, and $w_{uv}$ denotes the similarity between users u and v. We note that we adjust/normalize ratings by subtracting neighbor's average and later, adding user average rating. This is because raters rate on different scales, and this accounts for this bias.
+   where $V$ denotes the $k$ nearest neighbors of user $u$, who is rating item $i$, and $w_{uv}$ denotes the similarity between users $u$ and $v$. Also, $\bar{r}_u$ is the average rating of user $u$ and $r_{vi}$ is the rating of neighbor $v$ to item $i$. We note that we adjust/normalize ratings by subtracting neighbor's average and later, adding user average rating. This is because raters rate on different scales, and this accounts for this bias.
 
 ## References
