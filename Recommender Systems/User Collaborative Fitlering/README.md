@@ -25,6 +25,7 @@ It consists of 1441 lines, each corresponding to a different rating event of a m
 1. Calculate Pearson Correlation between two users
   
    .<img width="398" alt="Screenshot 2023-06-26 at 5 44 48 PM" src="https://github.com/faridashahata/Portfolio/assets/113303940/bc6f337a-21ca-42e9-a7c5-eb3948d99e53">,
+   
    where $I$ is the overlap of items between users $u$ and $v$.
 
 4. Retreive based on these correlation numbers the $k$ nearest neighbors of a user. Retrieve the first $k$ users who have the highest correlation factor with our user.
