@@ -1,3 +1,6 @@
 [submodule "Language-Engineering"]
 	path = Language-Engineering
 	url = https://github.com/faridashahata/Language-Engineering
+[submodule "DLDS"]
+	path = DLDS
+	url = https://github.com/faridashahata/DLDS/
