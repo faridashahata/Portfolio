@@ -37,7 +37,7 @@ Training on Google Cloud (GPU access), several Tesla T4 GPUs on Vertex AI (noteb
 
 
 ## Results Summary: 
-Fine-tuning ***ResNet50*** on the Brain Dataset in `BinaryClassification.py` using a batch size of 32, and 5 epochs, we reach a **test accuracy of 99%** for sinmple binary classification.
+Fine-tuning ***ResNet50*** on the Brain Dataset in `BinaryClassification.py` using a batch size of 32, and 5 epochs, we reach a **test accuracy of 99%** for simple binary classification.
 
 Multi-class Classification with ***ResNetRS152*** on the Brain Dataset in `ResNetRS152.py` (with data augmentation, and 20 epochs) reaches a final **test accuracy of 94%** for the multi-class setting.
 
